@@ -12,6 +12,7 @@ package week3startercode;
 public class Student {
     private String FirstName;
     private int ID;
+    private boolean partTime;
 
     /**
      * @return the FirstName
@@ -39,6 +40,20 @@ public class Student {
      */
     public void setID(int ID) {
         this.ID = ID;
+    }
+
+    /**
+     * @return the partTime
+     */
+    public boolean isPartTime() {
+        return partTime;
+    }
+
+    /**
+     * @param partTime the partTime to set
+     */
+    public void setPartTime(boolean partTime) {
+        this.partTime = partTime;
     }
     
 }
